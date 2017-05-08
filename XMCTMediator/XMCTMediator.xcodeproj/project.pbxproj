@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4783E631EC059ED00B464E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4783E621EC059ED00B464E1 /* main.m */; };
+		A4783E661EC059ED00B464E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4783E651EC059ED00B464E1 /* AppDelegate.m */; };
+		A4783E691EC059ED00B464E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4783E681EC059ED00B464E1 /* ViewController.m */; };
+		A4783E6C1EC059ED00B464E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4783E6A1EC059ED00B464E1 /* Main.storyboard */; };
+		A4783E6E1EC059ED00B464E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4783E6D1EC059ED00B464E1 /* Assets.xcassets */; };
+		A4783E711EC059ED00B464E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4783E6F1EC059ED00B464E1 /* LaunchScreen.storyboard */; };
+		A4783E7C1EC059ED00B464E1 /* XMCTMediatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4783E7B1EC059ED00B464E1 /* XMCTMediatorTests.m */; };
+		A4783E871EC059ED00B464E1 /* XMCTMediatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4783E861EC059ED00B464E1 /* XMCTMediatorUITests.m */; };
+		A4783E971EC05A6000B464E1 /* XMCTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = A4783E961EC05A6000B464E1 /* XMCTMediator.m */; };
+		A4783E981EC05A6000B464E1 /* XMCTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = A4783E961EC05A6000B464E1 /* XMCTMediator.m */; };
+		A4783E991EC05A6000B464E1 /* XMCTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = A4783E961EC05A6000B464E1 /* XMCTMediator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4783E781EC059ED00B464E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4783E561EC059ED00B464E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4783E5D1EC059ED00B464E1;
+			remoteInfo = XMCTMediator;
+		};
+		A4783E831EC059ED00B464E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4783E561EC059ED00B464E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4783E5D1EC059ED00B464E1;
+			remoteInfo = XMCTMediator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4783E5E1EC059ED00B464E1 /* XMCTMediator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMCTMediator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4783E621EC059ED00B464E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4783E641EC059ED00B464E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4783E651EC059ED00B464E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4783E671EC059ED00B464E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A4783E681EC059ED00B464E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A4783E6B1EC059ED00B464E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4783E6D1EC059ED00B464E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4783E701EC059ED00B464E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4783E721EC059ED00B464E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4783E771EC059ED00B464E1 /* XMCTMediatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMCTMediatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4783E7B1EC059ED00B464E1 /* XMCTMediatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMCTMediatorTests.m; sourceTree = "<group>"; };
+		A4783E7D1EC059ED00B464E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4783E821EC059ED00B464E1 /* XMCTMediatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMCTMediatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4783E861EC059ED00B464E1 /* XMCTMediatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMCTMediatorUITests.m; sourceTree = "<group>"; };
+		A4783E881EC059ED00B464E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4783E951EC05A6000B464E1 /* XMCTMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMCTMediator.h; sourceTree = "<group>"; };
+		A4783E961EC05A6000B464E1 /* XMCTMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMCTMediator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4783E5B1EC059ED00B464E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4783E741EC059ED00B464E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4783E7F1EC059ED00B464E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4783E551EC059ED00B464E1 = {
+			isa = PBXGroup;
+			children = (
+				A4783E601EC059ED00B464E1 /* XMCTMediator */,
+				A4783E7A1EC059ED00B464E1 /* XMCTMediatorTests */,
+				A4783E851EC059ED00B464E1 /* XMCTMediatorUITests */,
+				A4783E5F1EC059ED00B464E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4783E5F1EC059ED00B464E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4783E5E1EC059ED00B464E1 /* XMCTMediator.app */,
+				A4783E771EC059ED00B464E1 /* XMCTMediatorTests.xctest */,
+				A4783E821EC059ED00B464E1 /* XMCTMediatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4783E601EC059ED00B464E1 /* XMCTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				A4783E941EC05A2D00B464E1 /* XMCTMediator */,
+				A4783E641EC059ED00B464E1 /* AppDelegate.h */,
+				A4783E651EC059ED00B464E1 /* AppDelegate.m */,
+				A4783E671EC059ED00B464E1 /* ViewController.h */,
+				A4783E681EC059ED00B464E1 /* ViewController.m */,
+				A4783E6A1EC059ED00B464E1 /* Main.storyboard */,
+				A4783E6D1EC059ED00B464E1 /* Assets.xcassets */,
+				A4783E6F1EC059ED00B464E1 /* LaunchScreen.storyboard */,
+				A4783E721EC059ED00B464E1 /* Info.plist */,
+				A4783E611EC059ED00B464E1 /* Supporting Files */,
+			);
+			path = XMCTMediator;
+			sourceTree = "<group>";
+		};
+		A4783E611EC059ED00B464E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4783E621EC059ED00B464E1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4783E7A1EC059ED00B464E1 /* XMCTMediatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4783E7B1EC059ED00B464E1 /* XMCTMediatorTests.m */,
+				A4783E7D1EC059ED00B464E1 /* Info.plist */,
+			);
+			path = XMCTMediatorTests;
+			sourceTree = "<group>";
+		};
+		A4783E851EC059ED00B464E1 /* XMCTMediatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4783E861EC059ED00B464E1 /* XMCTMediatorUITests.m */,
+				A4783E881EC059ED00B464E1 /* Info.plist */,
+			);
+			path = XMCTMediatorUITests;
+			sourceTree = "<group>";
+		};
+		A4783E941EC05A2D00B464E1 /* XMCTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				A4783E951EC05A6000B464E1 /* XMCTMediator.h */,
+				A4783E961EC05A6000B464E1 /* XMCTMediator.m */,
+			);
+			path = XMCTMediator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4783E5D1EC059ED00B464E1 /* XMCTMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4783E8B1EC059ED00B464E1 /* Build configuration list for PBXNativeTarget "XMCTMediator" */;
+			buildPhases = (
+				A4783E5A1EC059ED00B464E1 /* Sources */,
+				A4783E5B1EC059ED00B464E1 /* Frameworks */,
+				A4783E5C1EC059ED00B464E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMCTMediator;
+			productName = XMCTMediator;
+			productReference = A4783E5E1EC059ED00B464E1 /* XMCTMediator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4783E761EC059ED00B464E1 /* XMCTMediatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4783E8E1EC059ED00B464E1 /* Build configuration list for PBXNativeTarget "XMCTMediatorTests" */;
+			buildPhases = (
+				A4783E731EC059ED00B464E1 /* Sources */,
+				A4783E741EC059ED00B464E1 /* Frameworks */,
+				A4783E751EC059ED00B464E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4783E791EC059ED00B464E1 /* PBXTargetDependency */,
+			);
+			name = XMCTMediatorTests;
+			productName = XMCTMediatorTests;
+			productReference = A4783E771EC059ED00B464E1 /* XMCTMediatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4783E811EC059ED00B464E1 /* XMCTMediatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4783E911EC059ED00B464E1 /* Build configuration list for PBXNativeTarget "XMCTMediatorUITests" */;
+			buildPhases = (
+				A4783E7E1EC059ED00B464E1 /* Sources */,
+				A4783E7F1EC059ED00B464E1 /* Frameworks */,
+				A4783E801EC059ED00B464E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4783E841EC059ED00B464E1 /* PBXTargetDependency */,
+			);
+			name = XMCTMediatorUITests;
+			productName = XMCTMediatorUITests;
+			productReference = A4783E821EC059ED00B464E1 /* XMCTMediatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4783E561EC059ED00B464E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = xm;
+				TargetAttributes = {
+					A4783E5D1EC059ED00B464E1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8DQR5VT4B3;
+						ProvisioningStyle = Automatic;
+					};
+					A4783E761EC059ED00B464E1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8DQR5VT4B3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A4783E5D1EC059ED00B464E1;
+					};
+					A4783E811EC059ED00B464E1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8DQR5VT4B3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A4783E5D1EC059ED00B464E1;
+					};
+				};
+			};
+			buildConfigurationList = A4783E591EC059ED00B464E1 /* Build configuration list for PBXProject "XMCTMediator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4783E551EC059ED00B464E1;
+			productRefGroup = A4783E5F1EC059ED00B464E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4783E5D1EC059ED00B464E1 /* XMCTMediator */,
+				A4783E761EC059ED00B464E1 /* XMCTMediatorTests */,
+				A4783E811EC059ED00B464E1 /* XMCTMediatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4783E5C1EC059ED00B464E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4783E711EC059ED00B464E1 /* LaunchScreen.storyboard in Resources */,
+				A4783E6E1EC059ED00B464E1 /* Assets.xcassets in Resources */,
+				A4783E6C1EC059ED00B464E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4783E751EC059ED00B464E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4783E801EC059ED00B464E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4783E5A1EC059ED00B464E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4783E691EC059ED00B464E1 /* ViewController.m in Sources */,
+				A4783E661EC059ED00B464E1 /* AppDelegate.m in Sources */,
+				A4783E971EC05A6000B464E1 /* XMCTMediator.m in Sources */,
+				A4783E631EC059ED00B464E1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4783E731EC059ED00B464E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4783E981EC05A6000B464E1 /* XMCTMediator.m in Sources */,
+				A4783E7C1EC059ED00B464E1 /* XMCTMediatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4783E7E1EC059ED00B464E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4783E991EC05A6000B464E1 /* XMCTMediator.m in Sources */,
+				A4783E871EC059ED00B464E1 /* XMCTMediatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4783E791EC059ED00B464E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4783E5D1EC059ED00B464E1 /* XMCTMediator */;
+			targetProxy = A4783E781EC059ED00B464E1 /* PBXContainerItemProxy */;
+		};
+		A4783E841EC059ED00B464E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4783E5D1EC059ED00B464E1 /* XMCTMediator */;
+			targetProxy = A4783E831EC059ED00B464E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4783E6A1EC059ED00B464E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4783E6B1EC059ED00B464E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4783E6F1EC059ED00B464E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4783E701EC059ED00B464E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4783E891EC059ED00B464E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A4783E8A1EC059ED00B464E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4783E8C1EC059ED00B464E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8DQR5VT4B3;
+				INFOPLIST_FILE = XMCTMediator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shoneme.XMCTMediator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4783E8D1EC059ED00B464E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8DQR5VT4B3;
+				INFOPLIST_FILE = XMCTMediator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shoneme.XMCTMediator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A4783E8F1EC059ED00B464E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8DQR5VT4B3;
+				INFOPLIST_FILE = XMCTMediatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shoneme.XMCTMediatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMCTMediator.app/XMCTMediator";
+			};
+			name = Debug;
+		};
+		A4783E901EC059ED00B464E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8DQR5VT4B3;
+				INFOPLIST_FILE = XMCTMediatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shoneme.XMCTMediatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMCTMediator.app/XMCTMediator";
+			};
+			name = Release;
+		};
+		A4783E921EC059ED00B464E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8DQR5VT4B3;
+				INFOPLIST_FILE = XMCTMediatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shoneme.XMCTMediatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XMCTMediator;
+			};
+			name = Debug;
+		};
+		A4783E931EC059ED00B464E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8DQR5VT4B3;
+				INFOPLIST_FILE = XMCTMediatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shoneme.XMCTMediatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XMCTMediator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4783E591EC059ED00B464E1 /* Build configuration list for PBXProject "XMCTMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4783E891EC059ED00B464E1 /* Debug */,
+				A4783E8A1EC059ED00B464E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4783E8B1EC059ED00B464E1 /* Build configuration list for PBXNativeTarget "XMCTMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4783E8C1EC059ED00B464E1 /* Debug */,
+				A4783E8D1EC059ED00B464E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4783E8E1EC059ED00B464E1 /* Build configuration list for PBXNativeTarget "XMCTMediatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4783E8F1EC059ED00B464E1 /* Debug */,
+				A4783E901EC059ED00B464E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4783E911EC059ED00B464E1 /* Build configuration list for PBXNativeTarget "XMCTMediatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4783E921EC059ED00B464E1 /* Debug */,
+				A4783E931EC059ED00B464E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4783E561EC059ED00B464E1 /* Project object */;
+}
